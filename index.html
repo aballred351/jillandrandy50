@@ -5,24 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jill and Randy 50 Years!</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f1684bc62f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
         <div class="container">
             <nav>
                 <img src="images/momanddad/housefromseymour.png" class="logo">
-                <ul>
+                <ul id="sidemenu">
                     <li><a href="about.html">About</a></li>
                     <li><a href="parents.html">Parents</a></li>
                     <li><a href="children.html">Children</a></li>
                     <li><a href="grandchildren.html">Grandchildren</a></li>
                     <li><a href="congrats.html">Congrats!</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
-            <div class="header-text">
-                <p>Jill and Randy</p>
-                <h1>50 Years!!!</h1>
-            </div>
         </div>
     </div>
     <!-----------------about---------------->
